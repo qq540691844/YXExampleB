@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0AB88FA2BDBE57F34B64A886 /* Pods_YXExampleB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXExampleB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		10E02B9793F87225A6473499 /* YXExampleB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YXExampleB.podspec; path = ../YXExampleB.podspec; sourceTree = "<group>"; };
-		1F75649CCABED31E22F641C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2A6C9344CE17C710F8DA2AE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		10E02B9793F87225A6473499 /* YXExampleB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YXExampleB.podspec; path = ../YXExampleB.podspec; sourceTree = "<group>"; };
+		1F75649CCABED31E22F641C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2A6C9344CE17C710F8DA2AE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C0DFC54496FD89DB5DBC5D7 /* Pods-YXExampleB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXExampleB_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXExampleB_Tests/Pods-YXExampleB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YXExampleB_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXExampleB_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = qq540691844;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = PA557R5R5S;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -537,11 +540,13 @@
 			baseConfigurationReference = 7C3C9A708CC22A416D4737E3 /* Pods-YXExampleB_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PA557R5R5S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YXExampleB/YXExampleB-Prefix.pch";
 				INFOPLIST_FILE = "YXExampleB/YXExampleB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whxx.ispic.iLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -552,11 +557,13 @@
 			baseConfigurationReference = D09B9797BF9AA2E8775A9039 /* Pods-YXExampleB_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PA557R5R5S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YXExampleB/YXExampleB-Prefix.pch";
 				INFOPLIST_FILE = "YXExampleB/YXExampleB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whxx.ispic.iLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
