@@ -1,0 +1,31 @@
+{
+  "name": "YXExampleB",
+  "version": "0.1.0",
+  "summary": "A short description of YXExampleB.",
+  "description": "Description of YXExampleB.",
+  "homepage": "https://github.com/qq540691844/YXExampleB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qq540691844": "13581478122@163.com"
+  },
+  "source": {
+    "git": "https://github.com/qq540691844/YXExampleB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YXExampleB/Classes/**/*",
+  "frameworks": "CoreBluetooth",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1"
+    ],
+    "BabyBluetooth": [
+      "~> 0.7.0"
+    ]
+  }
+}

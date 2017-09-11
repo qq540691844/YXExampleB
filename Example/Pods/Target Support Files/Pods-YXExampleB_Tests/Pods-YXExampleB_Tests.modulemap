@@ -1,0 +1,6 @@
+framework module Pods_YXExampleB_Tests {
+  umbrella header "Pods-YXExampleB_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

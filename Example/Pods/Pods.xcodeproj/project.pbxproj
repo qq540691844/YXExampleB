@@ -1,0 +1,1342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB2CF9ACA15FF2276E626B89007ECCD /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09D7B4E7E06A5C88B59F158C01C9E749 /* BabyCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 75219F8F2FA1BDFBAF0015B6644240AF /* BabyCentralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E2CA1A8FC9FC8BA34F238E36F65468EE /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E9A394C73EAEA056EBC83DEDABD0FA4 /* Pods-YXExampleB_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD77B49F73C18759878B6BB04BBC8D5 /* Pods-YXExampleB_Example-dummy.m */; };
+		0F73F1F81CAAE1BD66A2630E9722CBEF /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49D82E7AC0B24C33ED8B504C937118 /* BabyCentralManager.m */; };
+		0FF4C0279E853B8808661CCED55CB08A /* BabyCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 50931297AAF98224E5613F7F664FD7AC /* BabyCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 976F4C41B4F94DD091086EC01DB25BF3 /* UIActivityIndicatorView+AFNetworking.m */; };
+		16DBA2A181AC7C299B6DC321B96AFF75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700FBC3C92199DC6224443ACA18360A9 /* Foundation.framework */; };
+		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C57570BE61AB7BE9566BE14D3800C6A /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 184860D471ED7B242209A5179FF62936 /* AFURLRequestSerialization.m */; };
+		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B0891B9511B99ADED2184B53629FEBC6 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DEFC4CC434EE2DB08AE9E6C25E29A08 /* Pods-YXExampleB_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0B327A5E193A4FBAB69226A2F000D1 /* Pods-YXExampleB_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F0BAE1DBB79BBB6CBD957EA8B89E4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4046D8639CB779CE049FB4A248BEEEF2 /* MobileCoreServices.framework */; };
+		32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBC90156EDD0721A0FCC121D43CD410 /* UIButton+AFNetworking.m */; };
+		34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D9ADC9168D5A6784E0168A610994EE /* UIProgressView+AFNetworking.m */; };
+		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FB50DC9A7702319D67318BCEAC37524B /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3845B4FCF4F57923A14D592F3B14E088 /* BabyPeripheralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FCC0EA7A36E9617B955B5AC99F5B3F /* BabyPeripheralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C4572B5D790CDFA58FE3AC9EA19800A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700FBC3C92199DC6224443ACA18360A9 /* Foundation.framework */; };
+		3F2F90163AFF2E83A8D97FCF72903360 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E871890699AE5DD1539E549B513CED3 /* BabyBluetooth.m */; };
+		41CC0F572EC98DD2E7A264949DE6C9DA /* YXExampleB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E36061374F6801C0FB407E437BE3745 /* YXExampleB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42AF1BB1ED090CC9E588A463441D09E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D8AE95E6BC081EF89DC3CC6B3135BE /* SystemConfiguration.framework */; };
+		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 06E83ED10E59387DDC3A64F0C4861CE4 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4D5693AE7C18F09B60E4CE96B30178 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B87A4C67754ED0FD5F85595E8CB48563 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D9C80207C802BAAB0641001CB20EADD9 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BE440B0C82DEB0984C6B770002AD6F /* Pods-YXExampleB_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8272A4523FA9CD266BE850D478CD69 /* Pods-YXExampleB_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58044F97D8353C983EA0A545DD1857B7 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96D08965EC28ED97F6B3277384D0CCD /* CoreBluetooth.framework */; };
+		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D9930961C66554B83C25D86D01B6C /* AFURLResponseSerialization.m */; };
+		63160BC08DF1705DA3A5B3626DDFF619 /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F51A98AF7EC4B6BFA3C3487FA0C60F4F /* BabySpeaker.m */; };
+		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A00C35E97176DE12314DE0415B984AB8 /* AFNetworkActivityIndicatorManager.m */; };
+		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0683ACAA8C582247C3A7F4E8D26BAECF /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		789D749690B308852115FF20CD982A69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F837FA057D0A4029CAD6A996173F4BF /* CoreGraphics.framework */; };
+		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2F9F35D406E8159AA1F1EE71D4704E /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A8BF617ADD41BFDC0DF03F597BA094E /* BabyBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA12126CADCDB08D43EACFF99E9EFD47 /* BabyBluetooth.framework */; };
+		7C20B110135E64832C3DCDA317786D19 /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BA834681F49E872DD2019CD3002348 /* BabyPeripheralManager.m */; };
+		7CA108D7D2160B23D52C1E1A7173EDE9 /* BabySpeaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F5BD6EE20DDFA78BCAE8487A1E4672 /* BabySpeaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A1EE01EE9264D57B009B46225E3FF /* UIWebView+AFNetworking.m */; };
+		82D554EC9FB9A62D935B6555325F5898 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7404554919686359260523183B36B7D0 /* Security.framework */; };
+		872C0555B1F955CBA78F63592225AD5B /* BabyBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = D567BC9398D3E868C1542B414F64ED9D /* BabyBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8770726F83780D9D5B8BBDF0EF8C5914 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F71D0C3E3BBBE995118E83028C8BACF /* AFNetworking.framework */; };
+		8BDD9FDD4F9A82720ED560BA2FCF0476 /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 913B014163F1F0646EB9A99B8F561116 /* BabyCallback.m */; };
+		8E4043D9104108C1F4A7F53108C1101D /* YXExampleB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CE035447E729A3E25EF44D4CC93CE1 /* YXExampleB-dummy.m */; };
+		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3956C4125A0BDD9CCC4D2C82A8C3458D /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B8685E047F8D43256971B53E0838337A /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED7916A9C820CD8729AA6CAEEB487D8 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95134844F3C263B271ADAF7E7AA8C915 /* BabyBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A6A85F9D8AED6F9C61D91F1B14CEE3 /* BabyBluetooth-dummy.m */; };
+		958665977F2F738FFE8424AB79944E46 /* BabyDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E94D9B3CA6C382AF583A81B97F542EA /* BabyDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9696BEF7470EE50446871CFABA63DC40 /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 854795E6347A12743F1B8669502D52F7 /* BabyToy.m */; };
+		A00FFF8537CA374A2C44552FEAAB80A4 /* BabyRhythm.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE672E7A7ACED15EAEA63AABF4765C6 /* BabyRhythm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC842DBB26A53EF4F0096995866B99 /* AFAutoPurgingImageCache.m */; };
+		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCBF10DA392826E22B833E0EA6A1B79 /* AFImageDownloader.m */; };
+		A7BAF6B1D66ABCA145630D43E8CB6B36 /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65527D7C30C16BC367F93FEFC78394A6 /* BabyOptions.m */; };
+		A8C297643282E0CF5E7DF9CB6E23A0D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700FBC3C92199DC6224443ACA18360A9 /* Foundation.framework */; };
+		A90BF51882A5DB51C3E79F6AD4D59D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700FBC3C92199DC6224443ACA18360A9 /* Foundation.framework */; };
+		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E0C8E7683C82115963877981D49459 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0D9140BEB3BAAABDECEE0BCDAD55E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700FBC3C92199DC6224443ACA18360A9 /* Foundation.framework */; };
+		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A3A5529BCD18F8645C815C131FF69 /* UIRefreshControl+AFNetworking.m */; };
+		BE9E49FC52285E888815A139CA799BC4 /* BabyOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E97D04978452A0555D8A55DAA295BDD /* BabyOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EAC1EBE0ADBCBFC86DA44D8C53108E /* AFSecurityPolicy.m */; };
+		CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EEF58EE1C1B487FCB13CB09A9C9915 /* AFNetworking-dummy.m */; };
+		D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2036A26C7618F325367EFC9A0050F6E /* AFURLSessionManager.m */; };
+		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF318A7917D5CC29CF204294226531 /* AFNetworkReachabilityManager.m */; };
+		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EE24EE810F0D48E5135991688567A8E2 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94301F7BD974DC660D05996AF0E71D7B /* AFHTTPSessionManager.m */; };
+		F17063813215C9EFF4FB9583BF8FAE6E /* BabyToy.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE4E8975C93195C6AC3261507C9CEEE /* BabyToy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CD064455FA9D7AD9247FAEF2AC64CA /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2577C6FCE987E3C2BB09B68ECE06509 /* Pods-YXExampleB_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AC7DA2F850E8B128F06D1655B3F90E /* Pods-YXExampleB_Tests-dummy.m */; };
+		F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BF0E2E8170F11ADFEA81430715F6C7 /* UIImageView+AFNetworking.m */; };
+		F4DA49CEC3003E287EB7CE59F6C25F46 /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971DD0612E0667148F16ABAC88A9534 /* BabyRhythm.m */; };
+		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FB098189B722E2E1CB63CFEABD1DB41C /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B679DAB27E2FF25CD88EC6EB9533F0 /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E97CFB0C4C477B0C70114721B9E9BDE4 /* BabyDefine.m */; };
+		FD88359B20577432EB1B0AEFAD53C233 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F8253C2EBDBBD5B11A7623BFEDCF4 /* ReplaceMe.m */; };
+		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F11DC91BD8100AD89A17DED9332706C7 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6026DCB4C3A925C95BC5EA038523A7 /* BabyBluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 581E9C4E49C45F3A875C7F45721CEDD5 /* BabyBluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3946C69A32E920B43ED8851BA178ADDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B1A0F40902F9533C324157F3F2703D;
+			remoteInfo = BabyBluetooth;
+		};
+		622C67A3644BBDA6DB8B328375BC99F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B1A0F40902F9533C324157F3F2703D;
+			remoteInfo = BabyBluetooth;
+		};
+		92A87489203F78E2F9F0E8CBEDE69876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AA3187CA3A58AEA64E5C6BF3C2C6D66;
+			remoteInfo = YXExampleB;
+		};
+		9809A8ED561E2347C3C43CBD4F39E567 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
+			remoteInfo = AFNetworking;
+		};
+		AC5848BD6B4BDCCB77304F9AE500FFE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B28C731ED502C135AA665062E852BA /* Pods-YXExampleB_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXExampleB_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0683ACAA8C582247C3A7F4E8D26BAECF /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		06E83ED10E59387DDC3A64F0C4861CE4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		0ED7916A9C820CD8729AA6CAEEB487D8 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		12D9ADC9168D5A6784E0168A610994EE /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		164B0562896E912AC502F193A0C68A87 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		184860D471ED7B242209A5179FF62936 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		21EED61D8441CE7C8F5264E24D018C3D /* Pods-YXExampleB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXExampleB_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2E49D82E7AC0B24C33ED8B504C937118 /* BabyCentralManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyCentralManager.m; path = Classes/objc/BabyCentralManager.m; sourceTree = "<group>"; };
+		2E97D04978452A0555D8A55DAA295BDD /* BabyOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyOptions.h; path = Classes/objc/BabyOptions.h; sourceTree = "<group>"; };
+		31B733E5F57AC8E0DBE4045A855B0435 /* YXExampleB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YXExampleB.modulemap; sourceTree = "<group>"; };
+		35F5BD6EE20DDFA78BCAE8487A1E4672 /* BabySpeaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabySpeaker.h; path = Classes/objc/BabySpeaker.h; sourceTree = "<group>"; };
+		37BA834681F49E872DD2019CD3002348 /* BabyPeripheralManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyPeripheralManager.m; path = Classes/objc/BabyPeripheralManager.m; sourceTree = "<group>"; };
+		3956C4125A0BDD9CCC4D2C82A8C3458D /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		3B77A0C63DAB24583F5C5382AFDEE616 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB2CF9ACA15FF2276E626B89007ECCD /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		3CFAC4D8A0AEA6C3AD0D05942AB01D3A /* Pods-YXExampleB_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YXExampleB_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E871890699AE5DD1539E549B513CED3 /* BabyBluetooth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyBluetooth.m; path = Classes/objc/BabyBluetooth.m; sourceTree = "<group>"; };
+		3F71D0C3E3BBBE995118E83028C8BACF /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4046D8639CB779CE049FB4A248BEEEF2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		470CD3D5864CCC39CE676938F04AF020 /* Pods-YXExampleB_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YXExampleB_Example.modulemap"; sourceTree = "<group>"; };
+		4971DD0612E0667148F16ABAC88A9534 /* BabyRhythm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyRhythm.m; path = Classes/objc/BabyRhythm.m; sourceTree = "<group>"; };
+		49B6BD454F77B5C8B960884B7FBC1244 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F837FA057D0A4029CAD6A996173F4BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		50931297AAF98224E5613F7F664FD7AC /* BabyCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyCallback.h; path = Classes/objc/BabyCallback.h; sourceTree = "<group>"; };
+		51521D41D0C06D6494F58C1AAFCE0C2E /* Pods-YXExampleB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXExampleB_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		55A6147D0C3B94E5EC1F1ACF277BA541 /* Pods-YXExampleB_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YXExampleB_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		581E9C4E49C45F3A875C7F45721CEDD5 /* BabyBluetooth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BabyBluetooth-umbrella.h"; sourceTree = "<group>"; };
+		62F25885897CE611C65CA55C45B1BD8E /* Pods-YXExampleB_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YXExampleB_Example-frameworks.sh"; sourceTree = "<group>"; };
+		65527D7C30C16BC367F93FEFC78394A6 /* BabyOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyOptions.m; path = Classes/objc/BabyOptions.m; sourceTree = "<group>"; };
+		66CE035447E729A3E25EF44D4CC93CE1 /* YXExampleB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YXExampleB-dummy.m"; sourceTree = "<group>"; };
+		678A3A5529BCD18F8645C815C131FF69 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		6D8F866D5916CDB689301878515D920A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E94D9B3CA6C382AF583A81B97F542EA /* BabyDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyDefine.h; path = Classes/objc/BabyDefine.h; sourceTree = "<group>"; };
+		6FBC90156EDD0721A0FCC121D43CD410 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		6FCBF10DA392826E22B833E0EA6A1B79 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		700FBC3C92199DC6224443ACA18360A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7404554919686359260523183B36B7D0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		75219F8F2FA1BDFBAF0015B6644240AF /* BabyCentralManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyCentralManager.h; path = Classes/objc/BabyCentralManager.h; sourceTree = "<group>"; };
+		7E4D9930961C66554B83C25D86D01B6C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		7F0B327A5E193A4FBAB69226A2F000D1 /* Pods-YXExampleB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YXExampleB_Tests-umbrella.h"; sourceTree = "<group>"; };
+		854795E6347A12743F1B8669502D52F7 /* BabyToy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyToy.m; path = Classes/objc/BabyToy.m; sourceTree = "<group>"; };
+		89A6A85F9D8AED6F9C61D91F1B14CEE3 /* BabyBluetooth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BabyBluetooth-dummy.m"; sourceTree = "<group>"; };
+		89EAC1EBE0ADBCBFC86DA44D8C53108E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		8A4D5693AE7C18F09B60E4CE96B30178 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		913B014163F1F0646EB9A99B8F561116 /* BabyCallback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyCallback.m; path = Classes/objc/BabyCallback.m; sourceTree = "<group>"; };
+		91F64BF71E74509E06A3266DA0B3A159 /* BabyBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BabyBluetooth.framework; path = BabyBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924F8253C2EBDBBD5B11A7623BFEDCF4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YXExampleB/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94301F7BD974DC660D05996AF0E71D7B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		976F4C41B4F94DD091086EC01DB25BF3 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		9B2A1EE01EE9264D57B009B46225E3FF /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		9B767BE7B32D407B30F5FAAEACFDEFE4 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C57570BE61AB7BE9566BE14D3800C6A /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		9C8BDDB9EB1BA6459ECC406751699509 /* Pods-YXExampleB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXExampleB_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9CA05C86FA1EF97D7AD4ED086098C17B /* Pods-YXExampleB_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YXExampleB_Tests-resources.sh"; sourceTree = "<group>"; };
+		9E36061374F6801C0FB407E437BE3745 /* YXExampleB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXExampleB-umbrella.h"; sourceTree = "<group>"; };
+		A00C35E97176DE12314DE0415B984AB8 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		A21FD362342F68D133E8761800FBABF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2F9F35D406E8159AA1F1EE71D4704E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		AA8272A4523FA9CD266BE850D478CD69 /* Pods-YXExampleB_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YXExampleB_Example-umbrella.h"; sourceTree = "<group>"; };
+		AE024CA8F0453453D6AA20E259560A66 /* Pods-YXExampleB_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YXExampleB_Example-resources.sh"; sourceTree = "<group>"; };
+		AF4CF17A949E1ACFDAFF8E3AFBD3A222 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		B0891B9511B99ADED2184B53629FEBC6 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		B181B1329B04D13B9BA55CA9283860AD /* Pods-YXExampleB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YXExampleB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4D8AE95E6BC081EF89DC3CC6B3135BE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		B8685E047F8D43256971B53E0838337A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B87A4C67754ED0FD5F85595E8CB48563 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		BAAF318A7917D5CC29CF204294226531 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		BD4E24C156411E1D3EAAFAA455AF4A8A /* Pods-YXExampleB_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YXExampleB_Tests.modulemap"; sourceTree = "<group>"; };
+		BE96120205B96E336DAF8F8D2CAE7427 /* Pods-YXExampleB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YXExampleB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF897A9FDC5781FE5117B1EA1F419684 /* Pods_YXExampleB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YXExampleB_Tests.framework; path = "Pods-YXExampleB_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18622B0B4B3F6ED6DDE8997FD399C80 /* Pods_YXExampleB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YXExampleB_Example.framework; path = "Pods-YXExampleB_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1EEF58EE1C1B487FCB13CB09A9C9915 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		C2036A26C7618F325367EFC9A0050F6E /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		C5398C131D9290A17C1CB1FAEA20041A /* YXExampleB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YXExampleB.xcconfig; sourceTree = "<group>"; };
+		C53BE3ECAAA6FA900F6B6097A5AD33BA /* BabyBluetooth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BabyBluetooth.xcconfig; sourceTree = "<group>"; };
+		C6FC842DBB26A53EF4F0096995866B99 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		CB6DC10FB5284C0BE14BE2A3AB120623 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC46FBDDD3B68DD6C757006F2A5AC04 /* YXExampleB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YXExampleB.framework; path = YXExampleB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0FBB67E78422EFCB02DD17B57ACB7E /* BabyBluetooth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BabyBluetooth-prefix.pch"; sourceTree = "<group>"; };
+		D4FCC0EA7A36E9617B955B5AC99F5B3F /* BabyPeripheralManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyPeripheralManager.h; path = Classes/objc/BabyPeripheralManager.h; sourceTree = "<group>"; };
+		D567BC9398D3E868C1542B414F64ED9D /* BabyBluetooth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyBluetooth.h; path = Classes/objc/BabyBluetooth.h; sourceTree = "<group>"; };
+		D8E0C8E7683C82115963877981D49459 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		D96D08965EC28ED97F6B3277384D0CCD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		D9C80207C802BAAB0641001CB20EADD9 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		DDE4E8975C93195C6AC3261507C9CEEE /* BabyToy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyToy.h; path = Classes/objc/BabyToy.h; sourceTree = "<group>"; };
+		E0CD064455FA9D7AD9247FAEF2AC64CA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		E2CA1A8FC9FC8BA34F238E36F65468EE /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		E5BF0E2E8170F11ADFEA81430715F6C7 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		E97CFB0C4C477B0C70114721B9E9BDE4 /* BabyDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabyDefine.m; path = Classes/objc/BabyDefine.m; sourceTree = "<group>"; };
+		EA12126CADCDB08D43EACFF99E9EFD47 /* BabyBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BabyBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9EF37263F314C034D342F9BF36C68A /* BabyBluetooth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BabyBluetooth.modulemap; sourceTree = "<group>"; };
+		EC06227B9DAF50B05EE3114ECA88DA79 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		EE24EE810F0D48E5135991688567A8E2 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		EF4704BA5CE7639850B9AE240B265706 /* Pods-YXExampleB_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YXExampleB_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F11DC91BD8100AD89A17DED9332706C7 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		F51A98AF7EC4B6BFA3C3487FA0C60F4F /* BabySpeaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BabySpeaker.m; path = Classes/objc/BabySpeaker.m; sourceTree = "<group>"; };
+		F9AC7DA2F850E8B128F06D1655B3F90E /* Pods-YXExampleB_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YXExampleB_Tests-dummy.m"; sourceTree = "<group>"; };
+		FB098189B722E2E1CB63CFEABD1DB41C /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		FB50DC9A7702319D67318BCEAC37524B /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		FDE672E7A7ACED15EAEA63AABF4765C6 /* BabyRhythm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BabyRhythm.h; path = Classes/objc/BabyRhythm.h; sourceTree = "<group>"; };
+		FF9A25E0D0CEF3CC448E3695E20897F2 /* YXExampleB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXExampleB-prefix.pch"; sourceTree = "<group>"; };
+		FFD77B49F73C18759878B6BB04BBC8D5 /* Pods-YXExampleB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YXExampleB_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		120490EEA8754D27F24E983903116980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DBA2A181AC7C299B6DC321B96AFF75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3253B34F8F7AC275B36CAEFDA4295D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4572B5D790CDFA58FE3AC9EA19800A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D83B9C8F236820856D690F3B39E0EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90BF51882A5DB51C3E79F6AD4D59D13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446BE5520228D30371BA09E36C244C00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8770726F83780D9D5B8BBDF0EF8C5914 /* AFNetworking.framework in Frameworks */,
+				7A8BF617ADD41BFDC0DF03F597BA094E /* BabyBluetooth.framework in Frameworks */,
+				58044F97D8353C983EA0A545DD1857B7 /* CoreBluetooth.framework in Frameworks */,
+				B0D9140BEB3BAAABDECEE0BCDAD55E97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F44911563C03EE01D7E49B4C1F0D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789D749690B308852115FF20CD982A69 /* CoreGraphics.framework in Frameworks */,
+				A8C297643282E0CF5E7DF9CB6E23A0D4 /* Foundation.framework in Frameworks */,
+				30F0BAE1DBB79BBB6CBD957EA8B89E4B /* MobileCoreServices.framework in Frameworks */,
+				82D554EC9FB9A62D935B6555325F5898 /* Security.framework in Frameworks */,
+				42AF1BB1ED090CC9E588A463441D09E3 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C0FF8B21FD8CB34B71B6449DA2BFAF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26F4A8A56E4A3B0C37E24EA77525EB8B /* Pods-YXExampleB_Example */,
+				D81BFCE75300090B6F6B7E81CC31431A /* Pods-YXExampleB_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0721CF74C07A3844689648C478126F3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA9EF37263F314C034D342F9BF36C68A /* BabyBluetooth.modulemap */,
+				C53BE3ECAAA6FA900F6B6097A5AD33BA /* BabyBluetooth.xcconfig */,
+				89A6A85F9D8AED6F9C61D91F1B14CEE3 /* BabyBluetooth-dummy.m */,
+				CF0FBB67E78422EFCB02DD17B57ACB7E /* BabyBluetooth-prefix.pch */,
+				581E9C4E49C45F3A875C7F45721CEDD5 /* BabyBluetooth-umbrella.h */,
+				6D8F866D5916CDB689301878515D920A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BabyBluetooth";
+			sourceTree = "<group>";
+		};
+		22C83D3B609575EFEDF45BBEF14BB5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B767BE7B32D407B30F5FAAEACFDEFE4 /* AFNetworking.framework */,
+				91F64BF71E74509E06A3266DA0B3A159 /* BabyBluetooth.framework */,
+				C18622B0B4B3F6ED6DDE8997FD399C80 /* Pods_YXExampleB_Example.framework */,
+				BF897A9FDC5781FE5117B1EA1F419684 /* Pods_YXExampleB_Tests.framework */,
+				CCC46FBDDD3B68DD6C757006F2A5AC04 /* YXExampleB.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F4A8A56E4A3B0C37E24EA77525EB8B /* Pods-YXExampleB_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3B77A0C63DAB24583F5C5382AFDEE616 /* Info.plist */,
+				470CD3D5864CCC39CE676938F04AF020 /* Pods-YXExampleB_Example.modulemap */,
+				B181B1329B04D13B9BA55CA9283860AD /* Pods-YXExampleB_Example-acknowledgements.markdown */,
+				3CFAC4D8A0AEA6C3AD0D05942AB01D3A /* Pods-YXExampleB_Example-acknowledgements.plist */,
+				FFD77B49F73C18759878B6BB04BBC8D5 /* Pods-YXExampleB_Example-dummy.m */,
+				62F25885897CE611C65CA55C45B1BD8E /* Pods-YXExampleB_Example-frameworks.sh */,
+				AE024CA8F0453453D6AA20E259560A66 /* Pods-YXExampleB_Example-resources.sh */,
+				AA8272A4523FA9CD266BE850D478CD69 /* Pods-YXExampleB_Example-umbrella.h */,
+				51521D41D0C06D6494F58C1AAFCE0C2E /* Pods-YXExampleB_Example.debug.xcconfig */,
+				9C8BDDB9EB1BA6459ECC406751699509 /* Pods-YXExampleB_Example.release.xcconfig */,
+			);
+			name = "Pods-YXExampleB_Example";
+			path = "Target Support Files/Pods-YXExampleB_Example";
+			sourceTree = "<group>";
+		};
+		64718530A62382A3DE7A779681B45A54 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B87A4C67754ED0FD5F85595E8CB48563 /* AFAutoPurgingImageCache.h */,
+				C6FC842DBB26A53EF4F0096995866B99 /* AFAutoPurgingImageCache.m */,
+				F11DC91BD8100AD89A17DED9332706C7 /* AFImageDownloader.h */,
+				6FCBF10DA392826E22B833E0EA6A1B79 /* AFImageDownloader.m */,
+				AA2F9F35D406E8159AA1F1EE71D4704E /* AFNetworkActivityIndicatorManager.h */,
+				A00C35E97176DE12314DE0415B984AB8 /* AFNetworkActivityIndicatorManager.m */,
+				8A4D5693AE7C18F09B60E4CE96B30178 /* UIActivityIndicatorView+AFNetworking.h */,
+				976F4C41B4F94DD091086EC01DB25BF3 /* UIActivityIndicatorView+AFNetworking.m */,
+				B0891B9511B99ADED2184B53629FEBC6 /* UIButton+AFNetworking.h */,
+				6FBC90156EDD0721A0FCC121D43CD410 /* UIButton+AFNetworking.m */,
+				3956C4125A0BDD9CCC4D2C82A8C3458D /* UIImage+AFNetworking.h */,
+				E2CA1A8FC9FC8BA34F238E36F65468EE /* UIImageView+AFNetworking.h */,
+				E5BF0E2E8170F11ADFEA81430715F6C7 /* UIImageView+AFNetworking.m */,
+				EE24EE810F0D48E5135991688567A8E2 /* UIKit+AFNetworking.h */,
+				FB098189B722E2E1CB63CFEABD1DB41C /* UIProgressView+AFNetworking.h */,
+				12D9ADC9168D5A6784E0168A610994EE /* UIProgressView+AFNetworking.m */,
+				3BB2CF9ACA15FF2276E626B89007ECCD /* UIRefreshControl+AFNetworking.h */,
+				678A3A5529BCD18F8645C815C131FF69 /* UIRefreshControl+AFNetworking.m */,
+				D9C80207C802BAAB0641001CB20EADD9 /* UIWebView+AFNetworking.h */,
+				9B2A1EE01EE9264D57B009B46225E3FF /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		64B72AE222698AE6768F1032DCAAF3ED /* YXExampleB */ = {
+			isa = PBXGroup;
+			children = (
+				924F8253C2EBDBBD5B11A7623BFEDCF4 /* ReplaceMe.m */,
+				710D233083AD225DAD273B24A89E84BA /* Support Files */,
+			);
+			name = YXExampleB;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		710D233083AD225DAD273B24A89E84BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6DC10FB5284C0BE14BE2A3AB120623 /* Info.plist */,
+				31B733E5F57AC8E0DBE4045A855B0435 /* YXExampleB.modulemap */,
+				C5398C131D9290A17C1CB1FAEA20041A /* YXExampleB.xcconfig */,
+				66CE035447E729A3E25EF44D4CC93CE1 /* YXExampleB-dummy.m */,
+				FF9A25E0D0CEF3CC448E3695E20897F2 /* YXExampleB-prefix.pch */,
+				9E36061374F6801C0FB407E437BE3745 /* YXExampleB-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YXExampleB";
+			sourceTree = "<group>";
+		};
+		723A6B3D0D537F31C9D09D2B773534C6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				B8685E047F8D43256971B53E0838337A /* AFNetworkReachabilityManager.h */,
+				BAAF318A7917D5CC29CF204294226531 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		7B7657B4FBF510B83F5A8236ED56E07F /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				06E83ED10E59387DDC3A64F0C4861CE4 /* AFHTTPSessionManager.h */,
+				94301F7BD974DC660D05996AF0E71D7B /* AFHTTPSessionManager.m */,
+				D8E0C8E7683C82115963877981D49459 /* AFURLSessionManager.h */,
+				C2036A26C7618F325367EFC9A0050F6E /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DA330D07EDC541D61419692DD22ECA85 /* Development Pods */,
+				99C584D572EAF79512379E5A76C29103 /* Frameworks */,
+				9A9D343CF7563FE4CF93E86BAAA69642 /* Pods */,
+				22C83D3B609575EFEDF45BBEF14BB5BC /* Products */,
+				06C0FF8B21FD8CB34B71B6449DA2BFAF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		928BCB039C242EE1772CED86419E68CC /* BabyBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				D567BC9398D3E868C1542B414F64ED9D /* BabyBluetooth.h */,
+				3E871890699AE5DD1539E549B513CED3 /* BabyBluetooth.m */,
+				50931297AAF98224E5613F7F664FD7AC /* BabyCallback.h */,
+				913B014163F1F0646EB9A99B8F561116 /* BabyCallback.m */,
+				75219F8F2FA1BDFBAF0015B6644240AF /* BabyCentralManager.h */,
+				2E49D82E7AC0B24C33ED8B504C937118 /* BabyCentralManager.m */,
+				6E94D9B3CA6C382AF583A81B97F542EA /* BabyDefine.h */,
+				E97CFB0C4C477B0C70114721B9E9BDE4 /* BabyDefine.m */,
+				2E97D04978452A0555D8A55DAA295BDD /* BabyOptions.h */,
+				65527D7C30C16BC367F93FEFC78394A6 /* BabyOptions.m */,
+				D4FCC0EA7A36E9617B955B5AC99F5B3F /* BabyPeripheralManager.h */,
+				37BA834681F49E872DD2019CD3002348 /* BabyPeripheralManager.m */,
+				FDE672E7A7ACED15EAEA63AABF4765C6 /* BabyRhythm.h */,
+				4971DD0612E0667148F16ABAC88A9534 /* BabyRhythm.m */,
+				35F5BD6EE20DDFA78BCAE8487A1E4672 /* BabySpeaker.h */,
+				F51A98AF7EC4B6BFA3C3487FA0C60F4F /* BabySpeaker.m */,
+				DDE4E8975C93195C6AC3261507C9CEEE /* BabyToy.h */,
+				854795E6347A12743F1B8669502D52F7 /* BabyToy.m */,
+				0721CF74C07A3844689648C478126F3A /* Support Files */,
+			);
+			name = BabyBluetooth;
+			path = BabyBluetooth;
+			sourceTree = "<group>";
+		};
+		99C584D572EAF79512379E5A76C29103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F71D0C3E3BBBE995118E83028C8BACF /* AFNetworking.framework */,
+				EA12126CADCDB08D43EACFF99E9EFD47 /* BabyBluetooth.framework */,
+				DCDFB87B0D2DD789152884F7A4B19868 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A9D343CF7563FE4CF93E86BAAA69642 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4A45913BE04247378386EB2911371AC /* AFNetworking */,
+				928BCB039C242EE1772CED86419E68CC /* BabyBluetooth */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4A45913BE04247378386EB2911371AC /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FB50DC9A7702319D67318BCEAC37524B /* AFNetworking.h */,
+				7B7657B4FBF510B83F5A8236ED56E07F /* NSURLSession */,
+				723A6B3D0D537F31C9D09D2B773534C6 /* Reachability */,
+				D8E89FE7A9D978EF78298933FFB05EBD /* Security */,
+				EEB9809FEDEF908D6E1E93B741CADF53 /* Serialization */,
+				F6E242ACFEFCE9219DA9681655E0B242 /* Support Files */,
+				64718530A62382A3DE7A779681B45A54 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		D81BFCE75300090B6F6B7E81CC31431A /* Pods-YXExampleB_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				49B6BD454F77B5C8B960884B7FBC1244 /* Info.plist */,
+				BD4E24C156411E1D3EAAFAA455AF4A8A /* Pods-YXExampleB_Tests.modulemap */,
+				EF4704BA5CE7639850B9AE240B265706 /* Pods-YXExampleB_Tests-acknowledgements.markdown */,
+				00B28C731ED502C135AA665062E852BA /* Pods-YXExampleB_Tests-acknowledgements.plist */,
+				F9AC7DA2F850E8B128F06D1655B3F90E /* Pods-YXExampleB_Tests-dummy.m */,
+				55A6147D0C3B94E5EC1F1ACF277BA541 /* Pods-YXExampleB_Tests-frameworks.sh */,
+				9CA05C86FA1EF97D7AD4ED086098C17B /* Pods-YXExampleB_Tests-resources.sh */,
+				7F0B327A5E193A4FBAB69226A2F000D1 /* Pods-YXExampleB_Tests-umbrella.h */,
+				BE96120205B96E336DAF8F8D2CAE7427 /* Pods-YXExampleB_Tests.debug.xcconfig */,
+				21EED61D8441CE7C8F5264E24D018C3D /* Pods-YXExampleB_Tests.release.xcconfig */,
+			);
+			name = "Pods-YXExampleB_Tests";
+			path = "Target Support Files/Pods-YXExampleB_Tests";
+			sourceTree = "<group>";
+		};
+		D8E89FE7A9D978EF78298933FFB05EBD /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				0683ACAA8C582247C3A7F4E8D26BAECF /* AFSecurityPolicy.h */,
+				89EAC1EBE0ADBCBFC86DA44D8C53108E /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		DA330D07EDC541D61419692DD22ECA85 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64B72AE222698AE6768F1032DCAAF3ED /* YXExampleB */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DCDFB87B0D2DD789152884F7A4B19868 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D96D08965EC28ED97F6B3277384D0CCD /* CoreBluetooth.framework */,
+				4F837FA057D0A4029CAD6A996173F4BF /* CoreGraphics.framework */,
+				700FBC3C92199DC6224443ACA18360A9 /* Foundation.framework */,
+				4046D8639CB779CE049FB4A248BEEEF2 /* MobileCoreServices.framework */,
+				7404554919686359260523183B36B7D0 /* Security.framework */,
+				B4D8AE95E6BC081EF89DC3CC6B3135BE /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EEB9809FEDEF908D6E1E93B741CADF53 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				E0CD064455FA9D7AD9247FAEF2AC64CA /* AFURLRequestSerialization.h */,
+				184860D471ED7B242209A5179FF62936 /* AFURLRequestSerialization.m */,
+				0ED7916A9C820CD8729AA6CAEEB487D8 /* AFURLResponseSerialization.h */,
+				7E4D9930961C66554B83C25D86D01B6C /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		F6E242ACFEFCE9219DA9681655E0B242 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				164B0562896E912AC502F193A0C68A87 /* AFNetworking.modulemap */,
+				AF4CF17A949E1ACFDAFF8E3AFBD3A222 /* AFNetworking.xcconfig */,
+				C1EEF58EE1C1B487FCB13CB09A9C9915 /* AFNetworking-dummy.m */,
+				EC06227B9DAF50B05EE3114ECA88DA79 /* AFNetworking-prefix.pch */,
+				9C57570BE61AB7BE9566BE14D3800C6A /* AFNetworking-umbrella.h */,
+				A21FD362342F68D133E8761800FBABF3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13854F50919FCC9DA4D1048E818FE2F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BE440B0C82DEB0984C6B770002AD6F /* Pods-YXExampleB_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7264C061BF35CD71A71309E3F105AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CC0F572EC98DD2E7A264949DE6C9DA /* YXExampleB-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86088C9C92D6942D1163EED65B71022F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEFC4CC434EE2DB08AE9E6C25E29A08 /* Pods-YXExampleB_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF51EB9C179540355326BC18C9FAF5E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */,
+				4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */,
+				FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */,
+				7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */,
+				35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */,
+				93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */,
+				6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */,
+				F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */,
+				948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */,
+				AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */,
+				45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */,
+				9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */,
+				0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */,
+				E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */,
+				F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */,
+				00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */,
+				51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE8BBA8BFC025C93BED6CF0B8CAAC4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6026DCB4C3A925C95BC5EA038523A7 /* BabyBluetooth-umbrella.h in Headers */,
+				872C0555B1F955CBA78F63592225AD5B /* BabyBluetooth.h in Headers */,
+				0FF4C0279E853B8808661CCED55CB08A /* BabyCallback.h in Headers */,
+				09D7B4E7E06A5C88B59F158C01C9E749 /* BabyCentralManager.h in Headers */,
+				958665977F2F738FFE8424AB79944E46 /* BabyDefine.h in Headers */,
+				BE9E49FC52285E888815A139CA799BC4 /* BabyOptions.h in Headers */,
+				3845B4FCF4F57923A14D592F3B14E088 /* BabyPeripheralManager.h in Headers */,
+				A00FFF8537CA374A2C44552FEAAB80A4 /* BabyRhythm.h in Headers */,
+				7CA108D7D2160B23D52C1E1A7173EDE9 /* BabySpeaker.h in Headers */,
+				F17063813215C9EFF4FB9583BF8FAE6E /* BabyToy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AA3187CA3A58AEA64E5C6BF3C2C6D66 /* YXExampleB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D37CF6F50B797090DB927EF88827873 /* Build configuration list for PBXNativeTarget "YXExampleB" */;
+			buildPhases = (
+				50A06D80FA2A5CB3B82FE5083A9833DD /* Sources */,
+				446BE5520228D30371BA09E36C244C00 /* Frameworks */,
+				1B7264C061BF35CD71A71309E3F105AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F20BE2783A67A89685398B5B8E9074C /* PBXTargetDependency */,
+				BE935F787F09EF4A7175F442F97D59A7 /* PBXTargetDependency */,
+			);
+			name = YXExampleB;
+			productName = YXExampleB;
+			productReference = CCC46FBDDD3B68DD6C757006F2A5AC04 /* YXExampleB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		435370BF636E65AA59201642B4C0E0C5 /* Pods-YXExampleB_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435A4F00579CCCA4F8D4ACD37883DE78 /* Build configuration list for PBXNativeTarget "Pods-YXExampleB_Example" */;
+			buildPhases = (
+				70D82E5E088F15DC722012FD8A1C4E22 /* Sources */,
+				3253B34F8F7AC275B36CAEFDA4295D81 /* Frameworks */,
+				13854F50919FCC9DA4D1048E818FE2F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F499E1859F2C43FB118B4922B9D29181 /* PBXTargetDependency */,
+				09D97BC701EF62DB2DCC5D7CD591E7DB /* PBXTargetDependency */,
+				AE14E7FE5044B37D1CD53102DE271682 /* PBXTargetDependency */,
+			);
+			name = "Pods-YXExampleB_Example";
+			productName = "Pods-YXExampleB_Example";
+			productReference = C18622B0B4B3F6ED6DDE8997FD399C80 /* Pods_YXExampleB_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E01BC98C827BD8A78F94173CDCC418 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				6A10001116C48A3F5FDB7E1BC749EECD /* Sources */,
+				57F44911563C03EE01D7E49B4C1F0D0A /* Frameworks */,
+				BF51EB9C179540355326BC18C9FAF5E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 9B767BE7B32D407B30F5FAAEACFDEFE4 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8A293B2942AE7F8128C1BED612C192A /* Pods-YXExampleB_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74B8951B3638710C27FFB0D77142523 /* Build configuration list for PBXNativeTarget "Pods-YXExampleB_Tests" */;
+			buildPhases = (
+				0671795FB9A1D594D85231EECB5E9CA6 /* Sources */,
+				120490EEA8754D27F24E983903116980 /* Frameworks */,
+				86088C9C92D6942D1163EED65B71022F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YXExampleB_Tests";
+			productName = "Pods-YXExampleB_Tests";
+			productReference = BF897A9FDC5781FE5117B1EA1F419684 /* Pods_YXExampleB_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4B1A0F40902F9533C324157F3F2703D /* BabyBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8165C860ABA673867F813372969174B9 /* Build configuration list for PBXNativeTarget "BabyBluetooth" */;
+			buildPhases = (
+				3708EDAD2C7A1276ABB839D39C0601D0 /* Sources */,
+				3D83B9C8F236820856D690F3B39E0EA4 /* Frameworks */,
+				CDE8BBA8BFC025C93BED6CF0B8CAAC4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyBluetooth;
+			productName = BabyBluetooth;
+			productReference = 91F64BF71E74509E06A3266DA0B3A159 /* BabyBluetooth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 22C83D3B609575EFEDF45BBEF14BB5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */,
+				F4B1A0F40902F9533C324157F3F2703D /* BabyBluetooth */,
+				435370BF636E65AA59201642B4C0E0C5 /* Pods-YXExampleB_Example */,
+				D8A293B2942AE7F8128C1BED612C192A /* Pods-YXExampleB_Tests */,
+				2AA3187CA3A58AEA64E5C6BF3C2C6D66 /* YXExampleB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0671795FB9A1D594D85231EECB5E9CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2577C6FCE987E3C2BB09B68ECE06509 /* Pods-YXExampleB_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3708EDAD2C7A1276ABB839D39C0601D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95134844F3C263B271ADAF7E7AA8C915 /* BabyBluetooth-dummy.m in Sources */,
+				3F2F90163AFF2E83A8D97FCF72903360 /* BabyBluetooth.m in Sources */,
+				8BDD9FDD4F9A82720ED560BA2FCF0476 /* BabyCallback.m in Sources */,
+				0F73F1F81CAAE1BD66A2630E9722CBEF /* BabyCentralManager.m in Sources */,
+				F8B679DAB27E2FF25CD88EC6EB9533F0 /* BabyDefine.m in Sources */,
+				A7BAF6B1D66ABCA145630D43E8CB6B36 /* BabyOptions.m in Sources */,
+				7C20B110135E64832C3DCDA317786D19 /* BabyPeripheralManager.m in Sources */,
+				F4DA49CEC3003E287EB7CE59F6C25F46 /* BabyRhythm.m in Sources */,
+				63160BC08DF1705DA3A5B3626DDFF619 /* BabySpeaker.m in Sources */,
+				9696BEF7470EE50446871CFABA63DC40 /* BabyToy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A06D80FA2A5CB3B82FE5083A9833DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD88359B20577432EB1B0AEFAD53C233 /* ReplaceMe.m in Sources */,
+				8E4043D9104108C1F4A7F53108C1101D /* YXExampleB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A10001116C48A3F5FDB7E1BC749EECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */,
+				EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */,
+				A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */,
+				649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */,
+				CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */,
+				DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */,
+				CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */,
+				29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */,
+				5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */,
+				D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */,
+				140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */,
+				F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */,
+				34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */,
+				B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */,
+				7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70D82E5E088F15DC722012FD8A1C4E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9A394C73EAEA056EBC83DEDABD0FA4 /* Pods-YXExampleB_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09D97BC701EF62DB2DCC5D7CD591E7DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BabyBluetooth;
+			target = F4B1A0F40902F9533C324157F3F2703D /* BabyBluetooth */;
+			targetProxy = 622C67A3644BBDA6DB8B328375BC99F7 /* PBXContainerItemProxy */;
+		};
+		9F20BE2783A67A89685398B5B8E9074C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
+			targetProxy = 9809A8ED561E2347C3C43CBD4F39E567 /* PBXContainerItemProxy */;
+		};
+		AE14E7FE5044B37D1CD53102DE271682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YXExampleB;
+			target = 2AA3187CA3A58AEA64E5C6BF3C2C6D66 /* YXExampleB */;
+			targetProxy = 92A87489203F78E2F9F0E8CBEDE69876 /* PBXContainerItemProxy */;
+		};
+		BE935F787F09EF4A7175F442F97D59A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BabyBluetooth;
+			target = F4B1A0F40902F9533C324157F3F2703D /* BabyBluetooth */;
+			targetProxy = 3946C69A32E920B43ED8851BA178ADDE /* PBXContainerItemProxy */;
+		};
+		F499E1859F2C43FB118B4922B9D29181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
+			targetProxy = AC5848BD6B4BDCCB77304F9AE500FFE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ED23C332047A139E086D958D08B57EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51521D41D0C06D6494F58C1AAFCE0C2E /* Pods-YXExampleB_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YXExampleB_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YXExampleB_Example/Pods-YXExampleB_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YXExampleB_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20D2DC59AC3ED740BB4129D977DE0CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C53BE3ECAAA6FA900F6B6097A5AD33BA /* BabyBluetooth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BabyBluetooth/BabyBluetooth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BabyBluetooth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BabyBluetooth/BabyBluetooth.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BabyBluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		268006D1D730A31561073AFA782512D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8BDDB9EB1BA6459ECC406751699509 /* Pods-YXExampleB_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YXExampleB_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YXExampleB_Example/Pods-YXExampleB_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YXExampleB_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D019CFC38DA13CAD7ECAF603C5484E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5398C131D9290A17C1CB1FAEA20041A /* YXExampleB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YXExampleB/YXExampleB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YXExampleB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YXExampleB/YXExampleB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YXExampleB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46D85323E8FC7F40B8C59DE09FBF6221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5398C131D9290A17C1CB1FAEA20041A /* YXExampleB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YXExampleB/YXExampleB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YXExampleB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YXExampleB/YXExampleB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YXExampleB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69AC15DB437E378264D727B1B8068A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EED61D8441CE7C8F5264E24D018C3D /* Pods-YXExampleB_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YXExampleB_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YXExampleB_Tests/Pods-YXExampleB_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YXExampleB_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FFC95AA7D01AAA64ADD331583ABC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C53BE3ECAAA6FA900F6B6097A5AD33BA /* BabyBluetooth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BabyBluetooth/BabyBluetooth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BabyBluetooth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BabyBluetooth/BabyBluetooth.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BabyBluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7F5E9F26C62C1329854E595A488A56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4CF17A949E1ACFDAFF8E3AFBD3A222 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D15010D951FEE602B43772E9A2938F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4CF17A949E1ACFDAFF8E3AFBD3A222 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED2A7B72DF6BCAD64F85EB17BF98B370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE96120205B96E336DAF8F8D2CAE7427 /* Pods-YXExampleB_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YXExampleB_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YXExampleB_Tests/Pods-YXExampleB_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YXExampleB_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E01BC98C827BD8A78F94173CDCC418 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F5E9F26C62C1329854E595A488A56A /* Debug */,
+				D15010D951FEE602B43772E9A2938F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435A4F00579CCCA4F8D4ACD37883DE78 /* Build configuration list for PBXNativeTarget "Pods-YXExampleB_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED23C332047A139E086D958D08B57EF /* Debug */,
+				268006D1D730A31561073AFA782512D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D37CF6F50B797090DB927EF88827873 /* Build configuration list for PBXNativeTarget "YXExampleB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D019CFC38DA13CAD7ECAF603C5484E1 /* Debug */,
+				46D85323E8FC7F40B8C59DE09FBF6221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8165C860ABA673867F813372969174B9 /* Build configuration list for PBXNativeTarget "BabyBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FFC95AA7D01AAA64ADD331583ABC55 /* Debug */,
+				20D2DC59AC3ED740BB4129D977DE0CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74B8951B3638710C27FFB0D77142523 /* Build configuration list for PBXNativeTarget "Pods-YXExampleB_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2A7B72DF6BCAD64F85EB17BF98B370 /* Debug */,
+				69AC15DB437E378264D727B1B8068A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
