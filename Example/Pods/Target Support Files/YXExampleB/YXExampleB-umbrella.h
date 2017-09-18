@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "WHBleLib.h"
+#import "WHBle.h"
 
 FOUNDATION_EXPORT double YXExampleBVersionNumber;
 FOUNDATION_EXPORT const unsigned char YXExampleBVersionString[];
