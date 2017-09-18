@@ -21,9 +21,6 @@
   "source_files": "YXExampleB/Classes/**/*",
   "frameworks": "CoreBluetooth",
   "dependencies": {
-    "AFNetworking": [
-      "~> 3.1"
-    ],
     "BabyBluetooth": [
       "~> 0.7.0"
     ]

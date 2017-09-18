@@ -36,6 +36,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'CoreBluetooth'
-  s.dependency 'AFNetworking', '~> 3.1'
   s.dependency 'BabyBluetooth','~> 0.7.0'
 end

@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		487C185AEC99A3181EEBB291 /* Pods_YXExampleB_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB88FA2BDBE57F34B64A886 /* Pods_YXExampleB_Tests.framework */; };
+		4E7CFB201F6FA52100A031F7 /* WHBluetooehVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CFB1F1F6FA52100A031F7 /* WHBluetooehVc.m */; };
+		4E7CFB2E1F6FA5EF00A031F7 /* LYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CFB231F6FA5EF00A031F7 /* LYButton.m */; };
+		4E7CFB2F1F6FA5EF00A031F7 /* LYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CFB251F6FA5EF00A031F7 /* LYLabel.m */; };
+		4E7CFB301F6FA5EF00A031F7 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CFB271F6FA5EF00A031F7 /* UIButton+Extension.m */; };
+		4E7CFB311F6FA5EF00A031F7 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CFB291F6FA5EF00A031F7 /* UIImage+Extension.m */; };
+		4E7CFB321F6FA5EF00A031F7 /* UIView+LYQuickControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CFB2B1F6FA5EF00A031F7 /* UIView+LYQuickControl.m */; };
+		4E7CFB331F6FA5EF00A031F7 /* LYSearchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7CFB2D1F6FA5EF00A031F7 /* LYSearchItem.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -42,6 +49,20 @@
 		1F75649CCABED31E22F641C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2A6C9344CE17C710F8DA2AE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C0DFC54496FD89DB5DBC5D7 /* Pods-YXExampleB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXExampleB_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXExampleB_Tests/Pods-YXExampleB_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4E7CFB1E1F6FA52100A031F7 /* WHBluetooehVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBluetooehVc.h; sourceTree = "<group>"; };
+		4E7CFB1F1F6FA52100A031F7 /* WHBluetooehVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBluetooehVc.m; sourceTree = "<group>"; };
+		4E7CFB221F6FA5EF00A031F7 /* LYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYButton.h; sourceTree = "<group>"; };
+		4E7CFB231F6FA5EF00A031F7 /* LYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYButton.m; sourceTree = "<group>"; };
+		4E7CFB241F6FA5EF00A031F7 /* LYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLabel.h; sourceTree = "<group>"; };
+		4E7CFB251F6FA5EF00A031F7 /* LYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLabel.m; sourceTree = "<group>"; };
+		4E7CFB261F6FA5EF00A031F7 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		4E7CFB271F6FA5EF00A031F7 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		4E7CFB281F6FA5EF00A031F7 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		4E7CFB291F6FA5EF00A031F7 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		4E7CFB2A1F6FA5EF00A031F7 /* UIView+LYQuickControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYQuickControl.h"; sourceTree = "<group>"; };
+		4E7CFB2B1F6FA5EF00A031F7 /* UIView+LYQuickControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYQuickControl.m"; sourceTree = "<group>"; };
+		4E7CFB2C1F6FA5EF00A031F7 /* LYSearchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSearchItem.h; sourceTree = "<group>"; };
+		4E7CFB2D1F6FA5EF00A031F7 /* LYSearchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSearchItem.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YXExampleB_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXExampleB_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +116,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E7CFB211F6FA5EF00A031F7 /* LYQuickControl */ = {
+			isa = PBXGroup;
+			children = (
+				4E7CFB221F6FA5EF00A031F7 /* LYButton.h */,
+				4E7CFB231F6FA5EF00A031F7 /* LYButton.m */,
+				4E7CFB241F6FA5EF00A031F7 /* LYLabel.h */,
+				4E7CFB251F6FA5EF00A031F7 /* LYLabel.m */,
+				4E7CFB261F6FA5EF00A031F7 /* UIButton+Extension.h */,
+				4E7CFB271F6FA5EF00A031F7 /* UIButton+Extension.m */,
+				4E7CFB281F6FA5EF00A031F7 /* UIImage+Extension.h */,
+				4E7CFB291F6FA5EF00A031F7 /* UIImage+Extension.m */,
+				4E7CFB2A1F6FA5EF00A031F7 /* UIView+LYQuickControl.h */,
+				4E7CFB2B1F6FA5EF00A031F7 /* UIView+LYQuickControl.m */,
+			);
+			path = LYQuickControl;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +175,11 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YXExampleBViewController.h */,
 				6003F5A6195388D20070C39A /* YXExampleBViewController.m */,
+				4E7CFB1E1F6FA52100A031F7 /* WHBluetooehVc.h */,
+				4E7CFB1F1F6FA52100A031F7 /* WHBluetooehVc.m */,
+				4E7CFB211F6FA5EF00A031F7 /* LYQuickControl */,
+				4E7CFB2C1F6FA5EF00A031F7 /* LYSearchItem.h */,
+				4E7CFB2D1F6FA5EF00A031F7 /* LYSearchItem.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -388,14 +431,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YXExampleB_Example/Pods-YXExampleB_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/BabyBluetooth/BabyBluetooth.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YXExampleB/YXExampleB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BabyBluetooth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YXExampleB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,8 +454,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YXExampleBAppDelegate.m in Sources */,
+				4E7CFB321F6FA5EF00A031F7 /* UIView+LYQuickControl.m in Sources */,
+				4E7CFB201F6FA52100A031F7 /* WHBluetooehVc.m in Sources */,
+				4E7CFB301F6FA5EF00A031F7 /* UIButton+Extension.m in Sources */,
 				6003F5A7195388D20070C39A /* YXExampleBViewController.m in Sources */,
+				4E7CFB2F1F6FA5EF00A031F7 /* LYLabel.m in Sources */,
+				4E7CFB2E1F6FA5EF00A031F7 /* LYButton.m in Sources */,
+				4E7CFB331F6FA5EF00A031F7 /* LYSearchItem.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				4E7CFB311F6FA5EF00A031F7 /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +598,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.whxx.ispic.iLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -565,6 +616,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.whxx.ispic.iLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

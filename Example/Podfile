@@ -8,4 +8,7 @@ target 'YXExampleB_Example' do
 
     
   end
+	
+  pod 'Masonry', '~> 1.0.1'
+
 end

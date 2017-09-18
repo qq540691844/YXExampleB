@@ -14,3 +14,12 @@
     @import UIKit;
     @import Foundation;
 #endif
+
+#import "Masonry.h"
+
+#define MJWeakSelf __weak typeof(self) weakSelf = self;
+
+//常用变量
+#define DebugLog(s, ...) NSLog(@"%s(%d): %@", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+
+
